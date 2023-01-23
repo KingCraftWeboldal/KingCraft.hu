@@ -1,0 +1,16 @@
+.Szerverről {
+    font-family: 'impact';
+    color: black;
+    text-align: center;
+    font-size: 10mm;
+    margin-top: 1cm;
+    margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+   border-left: 3px rgb(0, 0, 0) dotted;
+   float: center;
+   border: 3px rgb(0, 0, 0) solid;
+   border-radius: 10px;
+   
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
