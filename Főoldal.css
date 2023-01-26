@@ -1,7 +1,9 @@
 body {
-    background-image: url("képek/Weboldali-Képek/2023-01-16_14.18.20.png");
-  width: 1920px, auto;
-  height: 1080px, auto;
+    background-image: url("képek/Weboldali-Képek/tél.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -576,5 +578,158 @@ color: black;
   margin-bottom: auto;
   float: center;
   cursor: auto;
+}
+
+.frissitésconfig a:hover {
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+  color: white;
+  background-color: black;
+}
+
+.jatekmodoktxt {
+  background-color: rgba(36, 36, 36, 0.158);
+   text-align: center;
+   font-size: 10mm;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 10mm;
+   margin: 10mm;
+   border-right:  3px rgb(0, 0, 0) solid;    
+  border-left: 3px rgb(0, 0, 0) dotted;
+  float: center;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+  color: black;
+
+} 
+
+
+.jatekmodoktxt a {
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: black;
+}
+.jatekmodoktxt a:hover{
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-color: black;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: white;
+}
+
+
+.Jatekmod_murder {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin-left: 2cm;
+  margin: 1cm;
+
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+
+
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_BedWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+.Jatekmod_BedWars {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+
+
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_BedWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.Jatekmod_SkyBlock {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+
+
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_SkyBlock h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.Jatekmod_SkyWars {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+
+
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_SkyWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
 }
 
