@@ -1,0 +1,129 @@
+.alap {
+    font-family: 'impact';
+    color: black;
+    text-align: center;
+    font-size: 10mm;
+    margin-top: 1cm;
+    margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+   border-left: 3px rgb(0, 0, 0) dotted;
+   float: center;
+   border: 3px rgb(0, 0, 0) solid;
+   border-radius: 10px;
+   
+   margin-top: 20px;
+   margin-bottom: 20px; 
+}
+
+.alap-leiras-tulajdonos {
+    font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(204, 133, 0);
+ outline-style: outset;
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+}
+
+.alap-leiras-tulajdonos a {
+    font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(204, 133, 0);
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+}
+.alap-leiras-tulajdonos a:hover {
+ color: rgb(0, 0, 0);
+}
+
+.alap-GergoPanda-Tulajdonos-Leirasok {
+  font-family: 'Koulen-Regular', sans-serif;
+  font-size: 7mm;
+  margin-top: 1cm;
+  margin: 1cm;
+  text-align: center;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ float: center;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px; 
+}
+
+
+.alap-GergoPanda-Tulajdonos-Leirasok-Rang {
+  font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(204, 133, 0);
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+   
+}
+
+.alap-GergoPanda-Tulajdonos-Leirasok-Csatlakozott {
+  font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(88, 86, 248);
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+}
+
+
+.alap-leiras-Staffok {
+  font-family: 'Koulen-Regular', sans-serif;
+  color: rgb(138, 0, 0);
+outline-style: outset;
+  text-shadow: 7mm;
+  text-align: center;
+  font-size: 7mm;
+}
+
+.alap-leiras-Staffok a{
+  font-family: 'Koulen-Regular', sans-serif;
+  color: rgb(138, 0, 0);
+  text-shadow: 7mm;
+  text-align: center;
+  font-size: 7mm;
+}
+
+.alap-leiras-Staffok a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.alap-UZX-STAFF-Leirasok-Rang {
+  font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(100, 0, 0);
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+   
+}
+
+.alap-leiras-Építészek {
+  font-family: 'Koulen-Regular', sans-serif;
+  color: rgb(100, 73, 21);
+outline-style: outset;
+  text-shadow: 7mm;
+  text-align: center;
+  font-size: 7mm;
+}
+
+.alap-leiras-Építészek a{
+  font-family: 'Koulen-Regular', sans-serif;
+  color: rgb(100, 73, 21);
+  text-shadow: 7mm;
+  text-align: center;
+  font-size: 7mm;
+}
+
+.alap-leiras-Építészek a:hover{
+  color: rgb(0, 0, 0);
+}
+.alap-DANI098-Építész-Leirasok-Rang {
+  font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(100, 73, 21);
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+}

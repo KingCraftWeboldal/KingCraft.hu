@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    background-image: url("képek/Weboldali-Képek/tél.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+@font-face {
+  font-family: 'Koulen-Regular';
+  src: url(betűtípusok/Koulen-Regular.ttf);
+}
+
+.Főoldal {
+  background-color: rgba(36, 36, 36, 0.158);
+  font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(252, 252, 252);
+   text-align: center;
+   font-size: 10mm;
+   font-family: "betűtípusok/GrapeNuts-Regular.ttf";
+   margin-top: 10mm;
+   margin: 10mm;
+   border-right:  3px rgb(0, 0, 0) solid;    
+  border-left: 3px rgb(0, 0, 0) dotted;
+  float: center;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+
+
+}
+
+.Főoldal-csatlakozok a{
+  font-family: 'Koulen-Regular', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: black;
+}
+.Főoldal-csatlakozok{
+  font-family: 'Koulen-Regular', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: black;
+}
+.Főoldal-csatlakozok a:hover {
+  font-family: 'Koulen-Regular', sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+}
+
+.vissza-txt a{
+  font-family: 'Koulen-Regular', sans-serif;
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+ border-right:  3px rgb(0, 0, 0) solid;  
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: rgb(116, 0, 0);
+}
+.vissza-txt a:hover {
+  font-family: 'Koulen-Regular', sans-serif;
+  color: white;
+  background-color: #eebd1b;
+}
+
+.vissza-txt {
+  font-family: 'Koulen-Regular', sans-serif , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: rgb(116, 0, 0);
+}
+
+.Oldal-Design {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  color: black;
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+
+ border-radius: 30px;
+ 
+ margin-top: auto;
+ margin-bottom: auto;
+ width: auto;
+ height: auto;
+ 
+}
+
+.Főoldal h2{
+  font-family: 'Koulen-Regular', sans-serif;
+}
+.vissza-leirás {
+  font-size: 6mm;
+  font-family: 'arial';
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 50px;
+ margin-bottom: 20px;
+ color: black;
+}
+.vissza-leirás h2{
+  font-size: 6mm;
+  font-family: 'arial';
+  text-align: center;
+ color: black;
+}
+.vissza-leirás h3{
+  font-size: 5mm;
+  font-family: 'arial';
+  text-align: center;
+ color: black;
+}
+
+
+.Szabályok{
+  font-family: 'arial';
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: rgb(116, 0, 0);
+}
+.Szabályok a{
+  font-family: 'arial';
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: rgb(116, 0, 0);
+}
+
+.Szabályok :hover {
+  color: rgb(0, 0, 0);
+  
+}
+
+.Szabályok a:hover {
+  color: rgb(0, 0, 0);
+
+}
+
+.vissza-txt :hover {
+  color: rgb(0, 0, 0);
+
+}
+
+.szabályok-színe {
+  font-family: 'arial';
+  color: rgb(0, 0, 0);
+
+}
+
+.Szabályok-elfogadása {
+  font-family: 'Koulen-Regular';
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.Szabályok-elfogadása a{
+  font-family: 'Koulen-Regular';
+  color: rgb(116, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+.Szabályok-txt h2{
+
+
+font-family: 'impact';
+font-size: 10mm;
+color: rgb(0, 0, 0);
+text-align: center;
+margin-top: 1cm;
+margin: 1cm;
+border-right:  3px rgb(0, 255, 42) solid;    
+border-left: 3px rgb(0, 0, 0) dotted;
+border: 3px rgb(0, 0, 0) solid;
+border-radius: 10px;
+
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.főoldal-Háttérkép {
+  background-image: url(képek/Főoldal-kép.png);
+  height: auto;
+  width: auto;
+}
+
+.Szabályok-elfogadása :hover {
+  font-family: 'Koulen-Regular', sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+}
+.Főoldal-szerverrol a {
+  font-family: 'impact';
+  font-size: 7mm;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+  border-right:  3px rgb(0, 255, 42) solid;    
+  border-left: 3px rgb(0, 0, 0) dotted;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+ 
+  margin-top: 50px;
+  margin-bottom: 20px;
+ }
+.Főoldal-szerverrol {
+  font-family: 'impact';
+  font-size: 7mm;
+  color: black;
+  text-align: left;
+  margin-top: 1cm;
+  margin: 1cm;
+ 
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.Főoldal-tulajdonos {
+   font-family: 'Koulen-Regular', sans-serif;
+   color: rgb(204, 133, 0);
+   outline-style: solid;
+   text-shadow: 7mm;
+   text-align: center;
+   font-size: 7mm;
+   border-radius: 80px;
+   outline-color: black;
+   outline-width: 3px;
+}
+.Főoldal-tulajdonos a {
+  color: rgb(204, 133, 0);
+
+}
+
+.Főoldal-tulajdonos a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.Főoldal-Szabályok {
+  font-family: 'impact';
+  font-size: 7mm;
+  color: black;
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+ 
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.Főoldal-Szabályok a {
+  font-family: 'impact';
+  font-size: 7mm;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+  border-right:  3px rgb(0, 255, 42) solid;    
+  border-left: 3px rgb(0, 0, 0) dotted;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+}
+
+.Főoldal-Szabályok a:hover {
+  font: 100;
+  font-family: , ;
+  color: white;
+  background: rgb(0, 0, 0);
+ 
+}
+
+.Főoldal-Legújabb-Frissítés{
+color: black;
+  text-align: center;
+  font-size: 8mm;
+  margin-top: 1cm;
+  margin: 1cm;
+    border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 50px;
+ margin-bottom: 20px;
+
+}
+
+.Főoldal-Frissítés-txt {
+  color: rgb(0, 5, 46);
+  
+}
+
+.cookie-container {
+  text-align: center;
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  color: #f5f6fa;
+  padding: 0 32px;
+
+  transition: 400ms;
+}
+
+.cookie-container.active {
+  text-align: center;
+  font-family: 'impact';
+  bottom: 0;
+}
+
+.cookie-container a {
+  text-align: center;
+  font-family: 'impact';
+  color: #000000;
+}
+.ujjatekos-container  {
+  text-align: center;
+  font-family: 'impact';
+  color: #000000;
+  font-size: 20px;
+}
+.ujjatekos-btn {
+  text-align: center;
+  font-family: 'impact';
+  background: #5e0000;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cookie-btn {
+  text-align: center;
+  font-family: 'impact';
+  background: #18e8a3;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.főoldal_alul {
+  text-align: center;
+  font-family: 'Koulen-Regular';
+  background: #000000;
+  border: 0;
+  color: #f5f6fa;
+  padding: 12px 48px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 3cm;
+  cursor: auto;
+}
+
+.BejelentkezésRegisztráció {
+  font-family: 'Impact';
+  text-align: right;
+
+  
+}
+
+.BejelentkezésRegisztráció:hover {
+  color: white;
+}
+
+.BejelentkezésRegisztráció a{
+  font-family: 'Impact';
+  color: black;
+  text-align: center;
+  margin-top: 1cm;
+  margin: 1cm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+  
+}
+
+
+.BejelentkezésRegisztráció a:hover {
+  color: white;
+  background-color: black;
+}
+
+.server-status {
+  "status": "success",
+  "online": true,
+  "motd": "NerdNu Creative 36\nWorldEdit + Protections! ☒ Rev 36",
+  "motd_json": {
+    "extra": [
+      {
+        "color": "white",
+        "text": "NerdNu "
+      },
+      {
+        "color": "dark_blue",
+        "text": "Creative 36\n"
+      },
+      {
+        "color": "gold",
+        "text": "WorldEdit + Protections! "
+      },
+      {
+        "color": "gray",
+        "text": "☒ "
+      },
+      {
+        "color": "dark_green",
+        "text": "Rev 36"
+      }
+    ],
+    "text": ""
+  },
+  "favicon": "data:image/png;base64,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",
+  "error": null,
+  "players": {
+    "max": 150,
+    "now": 0,
+    "sample": []
+  },
+  "server": {
+    "name": "Paper 1.18.1",
+    "protocol": 757
+  },
+  "last_updated": "1660290747",
+  "duration": "226719011"
+}
+
+.server-status {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-size: 11mm;
+  color: rgb(0, 0, 0);
+}
+
+.gombconfig{
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+}
+
+.gombconfig h2{
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+}
+.gombconfig h2 a{
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+}
+
+.frissitésconfig{
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+  color: white;
+  border-radius: 30px;
+
+}
+
+.frissitésconfig h2{
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+  color: white;
+  border-radius: 30px;
+}
+
+.frissitésconfig a {
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: auto;
+  color: white;
+  border-radius: 30px;
+}
+
+
+.frissitésconfig a:hover {
+  width: auto;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: center;
+  cursor: pointer;
+  background-color: #eebd1b;
+}
+
+.jatekmodoktxt {
+  background-color: rgba(36, 36, 36, 0.158);
+   text-align: center;
+   font-size: 10mm;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 10mm;
+   margin: 10mm;
+   border-right:  3px rgb(0, 0, 0) solid;    
+  border-left: 3px rgb(0, 0, 0) dotted;
+  float: center;
+  border: 3px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  
+  margin-top: 10mm;
+  margin-bottom: 10mm;
+  color: black;
+
+} 
+
+
+.jatekmodoktxt a {
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ 
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: black;
+}
+.jatekmodoktxt a:hover{
+  text-align: center;
+  margin-top: 10mm;
+  margin: 10mm;
+  border-right:  3px rgb(0, 0, 0) solid;    
+ border-left: 3px rgb(0, 0, 0) dotted;
+ border: 3px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-color: black;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: white;
+}
+
+
+.Jatekmod_murder {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin-left: 2cm;
+  margin: 1cm;
+
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_BedWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+.Jatekmod_BedWars {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_BedWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.Jatekmod_SkyBlock {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_SkyBlock h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.Jatekmod_SkyWars {
+  background-color: rgba(14, 14, 14, 0.397);
+  box-shadow: 0 10px 35px ;
+  text-align: center;
+  margin: 1cm;
+  margin-left: 2cm;
+    border-right:  4px rgb(0, 0, 0) solid;    
+ border-left: 4px rgb(0, 0, 0) dotted;
+ border: 4px rgb(0, 0, 0) solid;
+ border-radius: 10px;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ color: white;
+float: left;
+}
+
+
+.Jatekmod_SkyWars h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+.bejelentkezesregisztracio h3 a{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+float: left;
+margin-left: 0.2cm;
+}
+
+.bejelentkezesregisztracio h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  float: left;
+  margin-left: 0.2cm;
+  }
+.bejelentkezesregisztracio h3 a:hover{
+  color: white;
+  margin-left: 0.2cm;
+  float: left;
+  }
+  
+  .szerverallapot {
+    text-align: center;
+    margin-top: 1cm;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+
+  html::-webkit-scrollbar {
+    background-color: transparent;
+      width: 15px;
+      border-radius: 100px;
+      scroll-behavior: smooth;
+    }
+  
+    html::-webkit-scrollbar-thumb {
+      background-color: rgb(26, 26, 26);
+      border-radius: 800px;
+      scroll-behavior: smooth;
+    }
+  
+    html::-webkit-scrollbar-thumb:hover {
+      background-color:  rgba(26, 26, 26);
+     scroll-behavior: smooth;
+    }
+  
+    html::-webkit-scrollbar-track {
+      background-color: rgb(77, 77, 77);
+      scroll-behavior: smooth;
+    }
+  
+    html::-webkit-scrollbar-track:hover {
+      background-color: transparent;
+      scroll-behavior: smooth;
+    }
+
+
+    .discordwidget {
+      float: center;
+      text-align: center;
+    }
+
+    .alapkep {
+      font-family: 'impact';
+      font-size: 7mm;
+      border-radius: 10px ;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+
+
+    .alapkep-img {
+      margin-top: -35px;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
