@@ -1,0 +1,13 @@
+2023. 02. 01.
+
++ Cache Hozzáadva
+
+2023. 02. 02.
+
++ app_cache.appcache Hozzáadva
+Főoldal.html Módosítva
+Frissítések.html Módosítva
+
+2023. 02. 03.
+Főoldal.html Módosítva
+Frissítések.html Módosítva
