@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#v1.0.8 change this to force update
+#v1.1.4 change this to force update
 
 CACHE:
 Főoldal.html
@@ -110,3 +110,10 @@ képek/Játékmódok/TheBridge9.png
 képek/Játékmódok/TheBridge10.png
 képek/Játékmódok/vadon.png
 devlog/DEVLOG.txt
+center/css/style.css
+center/képek/Dollár logo.png
+center/képek/ember.png
+center/index.html
+center/Rang Vásárlás.html
+center/rangok.js
+
