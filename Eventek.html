@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="HU" dir="ltr" manifest="app_cache.appcache">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="engedélyek.js"></script>
 </head>
 
 <div class="Szabályok-txt">
@@ -24,11 +25,12 @@
 
 
 
-<body>
+<body onload="Értesítés_Engedélykérés()">
     <h2>
         <div class="szabályok-színe">
         <div class="szabalyokbetuszin">
-       <!-- Event neve:--> <h3>Jelenleg nincs Közelgő event</h3>
+          <br>
+       <!-- Event neve:--> <h3 id="eventnev">Betöltés...</h3>
        <div class="eventido">
        <!-- Event Idő:--><!--<h3>Event hossza:</h3><h3 id="eventido" class="eventido-h3"></h3>-->
         <br>
@@ -39,7 +41,7 @@
       
       <h2> 
           <div class="Szabályok-elfogadása">
-              <a href="index.html">
+              <a href="Főoldal.html">
                 <ion-icon name="caret-back-outline"></ion-icon>Vissza
               </div> 
               <a>

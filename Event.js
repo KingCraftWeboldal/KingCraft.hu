@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 const currentYear = new Date().getFullYear();
 const szervezo = document.getElementById('szervezo')
 const eventido = document.getElementById('eventido')
-
+const eventneve = document.getElementById('eventnev')
 const newYearTime = new Date(`December 01 ${currentYear} 20:00:00`);
 
 // Update countdown time
@@ -17,7 +17,7 @@ function updateCountdown() {
 	const h = Math.floor(diff / 1000 / 60 / 60) % 24;
 	const m = Math.floor(diff / 1000 / 60) % 60;
 	const s = Math.floor(diff / 1000) % 60;
-	
+	eventneve.innerHTML = 'Jelenleg nincs közelgő event.'
 	eventido.innerHTML = ''
     szervezo.innerHTML = ''
 	days.innerHTML = d;
