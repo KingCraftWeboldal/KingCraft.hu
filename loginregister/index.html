@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="HU" dir="ltr" manifest="app_cache.appcache">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Bejelentkezés/Regisztráció</title>
     
-    <script src="loading.js"></script>
-    <link rel="stylesheet" href="loading.css">
+    <script src="../loading.js"></script>
+    <link rel="stylesheet" href="../loading.css">
     <script src="bejelentkezes.js"></script>
     <script src="regiszracio.js"></script>
     <link rel="stylesheet" href="../Főoldal.css">
@@ -25,13 +25,13 @@
             <h2 class="title">Bejelentkezés</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Felhasználónév" required/>
+              <input type="text" placeholder="Felhasználónév" required id="loginnev"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Jelszó" required/>
+              <input type="password" placeholder="Jelszó" required id="loginjelszo"/>
             </div>
-            <input type="submit" value="Bejelentkezés" class="btn solid"></input>
+            <input type="submit" value="Bejelentkezés" class="btn solid" onclick="ellenorzesbejelentkezes()"></input>
             <p class="social-text">Vagy jelentkezzen be közösségi platformokkal</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -52,17 +52,17 @@
             <h2 class="title">Regisztráció</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Felhasználónév" required/>
+              <input type="text" placeholder="Felhasználónév" required id="registernev"/>
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" required/>
+              <input type="email" placeholder="Email" required id="registeremail"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Jelszó" required/>
+              <input type="password" placeholder="Jelszó" required id="registerjelszo"/>
             </div>
-            <input type="submit" class="btn" value="Regisztráció"/>
+            <input type="submit" class="btn" value="Regisztráció" onclick="ellenorzesregister()"/>
             <p class="social-text">Vagy jelentkezzen be közösségi platformokkal</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -94,10 +94,9 @@
             </button>
             <br><br>
             
-              <a href="../index.html" class="btn transparent">Vissza a Főoldalra</a>
+              <a href="../Főoldal.html" class="btn transparent">Vissza a Főoldalra</a>
               
           <br>
-          <p>Jelenleg a Bejelentkezés és a Regisztráció nem mülködik</p> 
            
           </div>
            <br>
@@ -112,7 +111,6 @@
               bejelentkezés
             </button>
             <br>
-            <p>Jelenleg a Bejelentkezés és a Regisztráció nem mülködik</p> 
           </div>
           <br>
         </div>
@@ -120,6 +118,8 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="../jsdelivr.js"></script>
+    <script src="login.register.js"></script>
 
   </body>
 </html>

@@ -1,3 +1,6 @@
+const version = 40.0;
+
+
 const EmberObject = [
     {
     Név: 'GergoPanda',
@@ -41,3 +44,4 @@ const EmberObject = [
     }
 
     console.table(EmberObject)
+    console.log("Szerver Verzió: " + version)

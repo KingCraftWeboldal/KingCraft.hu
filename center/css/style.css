@@ -17,16 +17,14 @@ body {
 
 }
 
-.logo {
-  float: right;
-  margin-right: 12px;
-  margin-top: 12px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  margin-top: 4%;
+.logo h3{
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 5mm;
+margin-left: 1.3cm;
+margin-top: -1.4cm;
 }
+
 
 
 
@@ -39,7 +37,12 @@ body {
   height: 250%;
   background: #03610c;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
-  background-color: rgb(255, 255, 255)
+  background-color: rgba(65, 65, 65, 0.829);
+  border-radius: 15px;
+}
+
+.leftbox nav img{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav a {
@@ -49,11 +52,12 @@ nav a {
   font-size: 1.1em;
   display: block;
   transition: all 0.3s ease-in-out;
-
 }
 
+
+
 nav a:hover {
-  color: #30975b;
+  color: #d69620;
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -63,7 +67,7 @@ nav a:first-child {
 }
 
 .active {
-  color: #30975b;
+  color: #d69620;
 }
 
 .rightbox {
@@ -71,12 +75,37 @@ nav a:first-child {
   width: 60%;
   height: 10%;
   margin-right: 100%;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .profile {
   position: absolute;
   width: 70%;
+  font-family:'Courier New', Courier, monospace;
 }
+
+.profile input{
+background-color: black;
+color: #d69620;
+outline: none;
+border-radius: 20px;
+padding: 0.1cm;
+font-family: 'Courier New', Courier, monospace;
+}
+.profile button{
+  background-color: rgba(26, 189, 48, 0.568);
+  border-color: rgba(9, 255, 21, 0);
+  border-radius: 11px;
+  color: white;
+  padding: 0.1cm;
+  float: left;
+  margin-left: 3mm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  margin-left: 5cm;
+  margin-top: -0.7cm;
+  }
+
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -97,15 +126,16 @@ h2 {
 }
 
 p {
-  border-width: 1px;
+  border-width: 0.1px;
   border-style: solid;
   border-image: auto;
-
+  border-radius: 10px;
+  font-family:'Courier New', Courier, monospace;
   width: 80%;
   font-family: "Montserrat", sans-serif;
   font-size: 0.7em;
   padding: 7px 0;
-  color: white;
+  color: rgb(236, 191, 40);
 }
 
 
@@ -128,7 +158,7 @@ footer {
 }
 
 .rangvasarlasimg {
- background-color: #b6b6b633;
+ background-color: #cccccc17;
  border-radius: 50px;
  margin-left: -16px;
 }
@@ -140,7 +170,109 @@ footer {
 }
 
 .fiokimg {
-  background-color: #cccccc83;
+  background-color: #cccccc17;
   border-radius: 50px;
   margin-left: -16px;
  }
+
+
+ .rangok img{
+   background-color: #cccccc17;
+   float: left;
+   border-radius: 20px;
+   padding: auto;
+ }
+
+ .rangok h3{
+   float: left;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 0.3cm;
+   border-radius: 15px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+ .rangok button{
+   float: left;
+   color: white;
+   background-color: rgba(0, 255, 13, 0.568);
+   border-color: rgba(9, 255, 21, 0);
+   padding: 0.3cm;
+   border-radius: 11px;
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ .vipvasarlasgomb {
+  margin-top: 19px;
+  margin-left: 1.9cm;
+ }
+
+
+ .fiokgombok button{
+  background-color: rgba(255, 123, 0, 0.568);
+  border-color: rgba(9, 255, 21, 0);
+  border-radius: 11px;
+  color: white;
+  padding: 0.2cm;
+  float: left;
+  margin-left: 3mm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  
+ }
+
+ .fioktorlesgomb button{
+  background-color: rgba(255, 0, 0, 0.568);
+  border-color: rgba(9, 255, 21, 0);
+  border-radius: 11px;
+  color: white;
+  padding: 0.2cm;
+  float: left;
+  margin-left: 3mm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  
+
+ }
+ 
+
+
+ .kingcoindisplayershop {
+  float: right;
+  text-align: left;
+  width: 80px;
+  margin-top: -3cm;
+ }
+
+
+ .coin_vasarlas img{
+  background-color: #cccccc17;
+  float: left;
+  border-radius: 20px;
+  padding: auto;
+}
+
+.coin_vasarlas{
+  float: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 0.3cm;
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.coin_vasarlas button{
+  float: left;
+  color: white;
+  background-color: rgba(0, 255, 13, 0.568);
+  border-color: rgba(9, 255, 21, 0);
+  padding: 0.3cm;
+  border-radius: 11px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.pirostxt {
+  color: rgb(209, 22, 22);
+}
+
+
+

@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    </div>
+    <div class="logo">
+      <img src="../képek/KingCraft Logó nincs háttér.png" alt="" height="140px">
+      <h3>KingCenter</h3>
+    </div>
     <div class="container">
 
 
@@ -19,16 +24,16 @@
         <nav>
           
           <a href="index.html">
-            <img src="képek/ember.png" width="60" height="60" class="fiokimg" alt="Rangvásárlás"><div class="fiok">Fiók</div>
+            <img src="képek/ember.png" width="64" height="60" class="fiokimg" alt="Rangvásárlás"><div class="fiok">Fiók</div>
           </a>
           <a href="Rang Vásárlás.html">
-            <img src="képek/Dollár logo.png" width="62" height="60" class="rangvasarlasimg" alt="Rangvásárlás"><div class="rangvasarlas"> Rang Vásárlás</div>
+            <img src="képek/Dollár logo.png" width="64" height="60" class="rangvasarlasimg" alt="Rangvásárlás"><div class="rangvasarlas">Rang Vásárlás</div>
+          </a>
+          <a href="Coin_vásárlás.html">
+            <img src="képek/Dollár logo.png" width="64" height="60" class="rangvasarlasimg" alt="Rangvásárlás"><div class="rangvasarlas">Coin Vásárlás</div>
           </a>
           <a href="#">
-            <i class="fa fa-tv"></i>
-          </a>
-          <a href="#">
-            <i class="fa fa-tasks"></i>
+            <img src="képek/barát.png" width="63" height="60" class="rangvasarlasimg" alt="Rangvásárlás"><div class="rangvasarlas">Barátok</div>
           </a>
           <a href="#">
             <i class="fa fa-cog"></i>
@@ -39,12 +44,27 @@
       <div class="rightbox">
         <div class="profile">
           <h1>Fiók Információ</h1>
-          <h2>Név</h2>
+          <h2 >Név:</h2>
+          <p id="centernev"></p>
+          <h2>Email:</h2>
+          <p id="centeremail"></p>
+          <h2>Fiók Létrehozva:</h2>
           <p></p>
-          <h2>Email</h2>
+          <h2>Rangod:</h2>
           <p></p>
+          <h2>KingCoin:</h2>
+          <p id="kingcoindisplay"></p>
+          <br><br>
+          <div class="fioktorlesgomb">
+          <button class="fioktorlesgomb" id="fioktorles" onclick="webujratoltes()">Fiók törlése</button></div>
+          <div class="fiokgombok">
+          <button>Jelszó Váltás</button>
+          <button>Email Váltás</button></div>
         </div>
       </div>
     </div>
   </body>
+  <script src="../jsdelivr.js"></script>
+  <script src="nevkiiras.js"></script>
+  <script src="kingcoin.js"></script>
 </html>
