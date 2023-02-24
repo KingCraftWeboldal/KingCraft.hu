@@ -909,4 +909,58 @@ margin-left: 0.2cm;
       padding: auto;
 
     }
+
+    .frissiteskereses {
+      background-color: rgba(14, 14, 14, 0.205);
+      padding: auto;
+      border-radius: 15px;
+      transition: all 0.5s ease;
+    }
+
+    .frissiteskereses a{
+      /*Nagyság*/
+      padding: 0.5cm;
+
+      /* Szín*/
+      background-color: #14f35ec4;
+      color: rgb(255, 255, 255);
+      border-color: transparent;
+      
+      /*Alakzat*/
+      border-radius: 15px;
+
+      /*Váltás*/
+      transition: all 0.5s ease;
+
+      /*Betű*/
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 6mm;
+    }
+
+    .frissiteskereses a:hover{
+      /*Nagyság*/
+      padding: 0.4cm;
+
+      /* Szín*/
+      background-color: #eebd1b;
+      color: white;
+      border-color: #000000;
+      
+      /*Alakzat*/
+      border-radius: 15px;
+
+      /*Váltás*/
+      transition: all 0.4s ease;
+
+      
+    }
+
+    .frissiteskereses h3 {
+      /* Szín*/
+      color: white;
+
+      /*Betű*/
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
     

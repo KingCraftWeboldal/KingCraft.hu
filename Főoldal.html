@@ -1,0 +1,145 @@
+
+<!DOCTYPE html >
+<html lang="HU" dir="ltr" manifest="app_cache.appcache">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KingCraft - Főoldal</title>
+    
+    <script src="loading.js"></script>
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="Főoldal.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<script src="engedélyek.js"></script>
+  </head>
+<body onload="Értesítés_Engedélykérés()">
+  <div class="menu">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="Főoldal.html">KingCraft</a><div class="verzio">
+  V: 40.0
+</div></div>
+      <div class="alapkep">
+        <img src="" width="50" class="alapkep-img"/></div>
+        <ul class="links">
+          <li><a href="Főoldalszabalyok.html"><ion-icon name="receipt-outline"></ion-icon>Szabályok</a></li>
+          <li><a href="Szerverről.html"><ion-icon name="information-outline"></ion-icon>Szerverről</a></li>
+          <li><a href="https://discord.gg/J3Fhje4pU8"><ion-icon name="logo-discord"></ion-icon>Discord</a></li>
+          <li><a href="Eventek.html"><ion-icon name="time-outline"></ion-icon>Eventek</a></li>
+          <li><a href="StaffokésaTulajdonos.html"><ion-icon name="people-outline"></ion-icon>Kapcsolat</a></li>
+          <li><a href="Kliens letöltése.html"><ion-icon name="people-outline"></ion-icon>Kliens letöltése</a></li>
+          <li>
+            
+              <a href="loginregister/index.html"><ion-icon name="log-in-outline"></ion-icon> Bejelentkezés/Regisztráció</a>
+          </li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Írjon be valamit a kereséshez..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+<br><br>
+
+
+<div class="szerverallapot">
+          <div class="server-status">
+    <span class="server-online"></span>
+</div></div></div></div>
+<br><br>
+
+<script src="minecraft.min.js"></script>
+<script>
+    MinecraftAPI.getServerStatus('kingcraft.ddnst.net', {
+        port: 25565 // optional, only if you need a custom port
+    }, function (err, status) {
+        if (err) {
+            return document.querySelector('.server-status').innerHTML = 'Szerver nem elérhető ❌';
+        }
+
+        // you can change these to your own message!
+        document.querySelector('.server-online').innerHTML = status.online ? 'Elérhető ✅' : 'Szerver nem elérhető ❌';
+    });
+</script>
+
+
+ 
+<br>
+</h6>
+  <div class="Főoldal-tulajdonos"> 
+    <a href="TulajdonosGergoPanda.html" title="Gergopanda Megtekintese"> Tulajdonos: GergoPanda</a>
+
+</div> 
+</div>  
+</h2>
+<h2>
+      
+
+      
+      
+      
+      </div>
+  </h2>
+
+</div>
+<div class="gombconfig">
+<h2>
+  <div class="Főoldal-szerverrol">  <div class="Főoldal-Szabályok"> 
+
+
+</div>          
+    </a>
+  </div>
+<div class="frissitésconfig">
+    <div class="Oldal-Design">
+
+      <h2>
+
+        <a href="Frissítések.html" title="Kattins Ide hogy megtekinthesd a Frissítés teljes részét">Legújabb Frissítés</a>
+   <br>
+      
+      
+<!--Frissítés Dátuma--> 2023. 02. 06. 
+
+        <h2>
+      </h2>
+    
+    <div class="Főoldal-Frissítés-txt"> 
+
+     TheBridge Tavaszi Fák {Map} Hozzáadva
+      <br>
+     BedWars Tavaszi Kert {Map} Hozzáadva
+      <br>
+      
+  </div>
+    </div>
+</h2>
+
+
+  <div class="jatekmodoktxt"><a href="Játékmódok.html" >Játékmódok</a></div>
+<br>
+    <div class="főoldal_alul">
+      <h2>
+        2022-2023 © KingCraft.hu
+      </h2>
+    </div>
+    <br>
+    <script src="KingCraft-WebConfig.js" ></script>
+    <div class="loader">betöltés</div>
+
+</body>
+<script src="jsdelivr.js"></script>
+<script src="sütik.js"></script>
+</html>
