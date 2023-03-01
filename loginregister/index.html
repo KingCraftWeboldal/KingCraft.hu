@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="HU" dir="ltr" manifest="app_cache.appcache">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Bejelentkezés/Regisztráció</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <script src="../loading.js"></script>
+    <link rel="stylesheet" href="../loading.css">
+    <script src="bejelentkezes.js"></script>
+    <script src="regiszracio.js"></script>
+    <link rel="stylesheet" href="../Főoldal.css">
+  </head>
+  <div class="loader"></div>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Bejelentkezés</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Felhasználónév" required id="loginnev"/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Jelszó" required id="loginjelszo"/>
+            </div>
+            <input type="submit" value="Bejelentkezés" class="btn solid" onclick="ellenorzesbejelentkezes()"></input>
+            <p class="social-text">Vagy jelentkezzen be közösségi platformokkal</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Regisztráció</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Felhasználónév" required id="registernev"/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" required id="registeremail"/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Jelszó" required id="registerjelszo"/>
+            </div>
+            <input type="submit" class="btn" value="Regisztráció" onclick="ellenorzesregister()"/>
+            <p class="social-text">Vagy jelentkezzen be közösségi platformokkal</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Új vagy?</h3>
+            <p>
+              Ezzel a gomb segítségével betudsz Regisztráli
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Regisztráció
+            </button>
+            <br><br>
+            
+              <a href="../Főoldal.html" class="btn transparent">Vissza a Főoldalra</a>
+              
+          <br>
+           
+          </div>
+           <br>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Van már fiókod?</h3>
+            <p>
+              Ezzel a gomb segítségével betudsz Jelentkezni.
+            </p>
+            <button class="btn transparent" id="sign-in-btn" >
+              bejelentkezés
+            </button>
+            <br>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="../jsdelivr.js"></script>
+    <script src="login.register.js"></script>
+
+  </body>
+</html>
